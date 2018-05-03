@@ -1,9 +1,9 @@
-Prework Week 5 Assignment
+Tier 1 Week 5
 ===
 
 This week, we'll be exploring classes by creating an application to help maintain a record collection.
 
-Base Mode
+Required Features
 ===
 
 Adding records to the collection
@@ -16,7 +16,7 @@ Adding records to the collection
 - add a function to your script named ```addToCollection( title, artist, year)``` that, when called, creates a new album and pushes it into the "collection" array
 - this function should return the new record
 
-Hard Mode
+Stretch Goals
 ===
 
 Finding a record by name
@@ -25,9 +25,6 @@ Finding a record by name
 - this function should receive an argument of a record title
 - if this record is found in the "collection" array, return the record's index within the array
 - if the record is not found, return ```false```
-
-Pro Mode
-===
 
 Get all albums by an artist
 
