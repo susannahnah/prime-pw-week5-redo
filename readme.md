@@ -30,3 +30,5 @@ Get all albums by an artist
 
 - create a function called ```allBy( artist )```
 - when run, this function should return an array of all albums in "collection" that are by the given artist 
+
+**Reminder**: Make sure to answer this week's Slack discussion question!
