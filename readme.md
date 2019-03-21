@@ -1,7 +1,7 @@
 Tier 1 Week 5
 ===
 
-This week, we'll be exploring objects by creating an application to help maintain a record collection.
+This week, we'll be exploring objects by creating an application to help maintain a record collection. We will do this by creating an object literal with the variables given to a function. This object literal will then be pushed into an array.
 
 Required Features
 ===
