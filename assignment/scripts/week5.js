@@ -8,9 +8,9 @@ function addToCollection( artist, title, year ){
       year: year,
     };
     collection.push(newAlbum);
-    return;
+    return newAlbum;
    }
   }
 
-addToCollection( 'Pulp', 'His and Hers', 1994 );
-addToCollection( 'Metallica', 'Kill Em All', 1983 );
+console.log(addToCollection( 'Pulp', 'His and Hers', 1994 ));
+console.log(addToCollection( 'Metallica', 'Kill Em All', 1983 ));
