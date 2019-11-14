@@ -4,7 +4,15 @@
 
 let collection = []; 
 
-  function addToCollection( artist, title, year ){
-        console.log('in my collection, I have ', artist, title, year );
-        
-    }
+function addToCollection( artist, title, year ){
+   console.log('in my collection, I have ', artist, title, year );
+      {
+         let newRecord = {
+         artist: artist,
+         title: title,
+         year: year,
+         };
+         collection.push(newRecord);
+         return newRecord; 
+      };
+}
