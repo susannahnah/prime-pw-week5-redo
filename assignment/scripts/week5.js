@@ -4,7 +4,7 @@
 
 let collection = []; 
 
-  function addToCollection(){
-        console.log('in my collection, I have ', + artist );
+  function addToCollection( artist, title, year ){
+        console.log('in my collection, I have ', artist, title, year );
         
     }
