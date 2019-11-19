@@ -16,3 +16,6 @@ function addToCollection( artist, title, year ){
          return newRecord; 
       };
 }
+
+console.log(addToCollection('Metallica', 'Ride the Lightning', '1984')); 
+
