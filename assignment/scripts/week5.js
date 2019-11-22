@@ -30,6 +30,9 @@ function findRecord(title) {
    if (title.artist === this[0] {
        return title;
        }
-};
+}
+for (let i of collection){
+    if(i === 'metallica')   
+   }
 
 //let title = collection.find(findRecord, ['Ride the Lightning']);
