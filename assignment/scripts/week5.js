@@ -27,6 +27,9 @@ console.log(addToCollection('Metallica', 'Ride the Lightning', '1984'));
 
 function findRecord(title) {
    console.log(this);
+   if (title.artist === this[0] {
+       return title;
+       }
 };
 
-let title = collection.find(findRecord, ['Ride the Lightning']);
+//let title = collection.find(findRecord, ['Ride the Lightning']);
