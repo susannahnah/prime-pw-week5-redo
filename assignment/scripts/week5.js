@@ -19,3 +19,8 @@ function addToCollection( artist, title, year ){
 
 console.log(addToCollection('Metallica', 'Ride the Lightning', '1984')); 
 
+//Stretch Goals: 
+//create the function findRecord( title )
+//this function should receive an argument of a record title
+//if this record is found in the "collection" array, return the record's index within the array
+//if the record is not found, return false
